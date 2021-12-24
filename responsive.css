@@ -1,0 +1,340 @@
+@media screen and (max-width: 1023px){
+  #logobf{
+      display: none;
+  }  
+  #logoaf{
+      display: flex;
+      width: 75px;
+  }
+  header{
+      height: 74px;
+  }
+  header nav {
+      width: 95%;
+  }
+  header nav .logo{
+      width: 100px;
+      display: flex;
+      justify-content: flex-start;
+  }
+  header nav ul li a{
+font-size: 14px;
+  }
+  .box1 .text p{
+      font-size: 17px;
+  }
+  .row{
+      width: 85%;
+      min-width: 0;
+  }
+  header nav ul li a h5{
+      font-size: 14px;
+  }
+  header nav .logo{
+      padding: 0;
+  }
+  .center2 .text{
+    padding: 0 56px;
+  }
+ 
+}
+:root {
+    --margin: 45px;
+    --maincolor: #128c7e;
+  }
+
+@media screen and (max-width : 768px ) {
+               /* HEADER */
+               header{
+                   display: none;
+               }
+               .circle{
+                margin: 71px auto;
+               }
+     .logo{
+         width: 98%;
+         display: flex;
+         justify-content: space-between;
+     }  
+     .logo button{
+         background: transparent;
+         border: 0;
+         padding: 10px;
+         cursor: pointer;
+     }        
+     .logo button i{
+         font-size: 25px;
+         font-weight: 100;
+         color: white;
+     }
+.H2{
+    display: flex;
+    background-color: #075e54;
+    height: 700px;
+    position: fixed;
+    width: 100vw;
+    right: -100%;
+    transition: all 0.3s ease-in-out;
+}
+.header2{
+              
+                right: 0;
+               }
+.H2 nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 15px;
+    width: 100%;
+}
+.H2 nav ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+    justify-content: flex-start;
+    width: 85%;
+    margin-top: 21px;
+}
+.H2 nav ul li{
+    border-bottom: 1px solid #128c7e;
+    width: 100%;
+    padding: 21px 0;
+    list-style-type: none;
+}
+.H2 nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.H2 nav ul li h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+.H2 nav ul li a:hover{
+    text-decoration: underline;
+}
+    section{
+        background-color: #128c7e;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+    .Wlogo{
+        display: flex;
+        height: 77px;
+        width: auto;
+       
+    }
+    section .row .row1{
+width: 100%;
+text-align: center;
+margin-top: 30px;
+
+
+    }
+    section .row .row1 h1{
+        color: white;
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    section .row .row1 h4{
+        color: white;
+        font-size: 16px;
+    }
+    section .row .row1 p{
+        display: none;
+    }
+    section .row .row1 ul{
+        display: none;
+    }
+    .download{
+        display: flex;
+        width: 200px;
+        color: white;
+        border-radius: 30px;
+        height: 51px;
+        background-color: #075e54;
+        font-size: 16px;
+        border: 0;
+        text-align: center;
+        justify-content: center;
+        margin: 10px auto 55px auto;
+        padding: 14px 0;
+        text-transform: uppercase;
+
+    }
+    .ham_button{
+        width: 20px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 3%;
+        right: 6%;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .zindex{
+        z-index: -1;
+    }
+    .box1 h1{
+        font-size: 26px;
+    }
+  .box1 .text{
+      width: 80%;
+      padding: 0;
+  }
+  .box1 .text p{
+      margin: 0;
+  }
+    .cent2img{
+        
+        max-width: 80%;
+    }
+    .cent2img img{
+        width: 100%;
+    }
+    .box1 .text h1{
+        font-size: 26px;
+    }
+    .en-btn{
+        background: transparent;
+color: white;
+border: 2px solid white;
+padding: 7px 15px;
+width: 150px;
+border-radius: 5px;
+text-align: left;
+display: flex;
+justify-content: space-between;
+margin: 53px 51px;
+    }
+    .en-btn a{
+        text-decoration: none;
+        color: white;
+    }
+    .en-btn ul{}
+    .ham_button .line{
+        border: 1px solid white;
+        border-radius: 50px;
+        margin: 3px 0;
+        width: 20px;
+    }
+    .secimg{
+        display: flex;
+        width: 304px;
+    }
+    .firimg{
+        display: none;
+    }
+    .row{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 115px;
+        flex-direction: column;
+    }
+    .center2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+        margin-top: -39px;
+     
+    }
+ .center2 .box1{
+     width: 100%;
+     height: auto;
+ }
+.box1 .text{
+    margin: 0;
+}
+ .box1 h1{
+     color: black;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 26px;
+  font-size: 20px;
+  font-size: 31px;
+  /* font-weight: bolder; */
+}
+.box1 .text p{
+     color: black;
+ font-size: 16px;
+text-align: center;
+margin: 50px 0;
+letter-spacing: 0.234px;
+}
+.box1 .text p a{
+    color: #39b3ed;
+text-decoration: none;
+}
+.box1 .text p a:hover{
+    text-decoration: underline;
+}
+.cent2img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cent2img img{
+    max-width: 50vh;
+    min-width: 50%; 
+}
+.p2{
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+   .box2{
+       width: 100%;
+       margin-top: 0;
+       height: auto;
+      
+   }
+   .circle{
+    background-color: #77d7c8;
+display: flex;
+justify-content: center;
+margin: auto;
+margin-top: 77px;
+width: 270px;
+height: 270px;
+border-radius: 50%;
+margin-bottom: 32px;
+   }
+   .E-btn{
+       margin-top: 30px;
+       margin-bottom: 60px;
+   }
+   .text3 p{
+    padding-bottom: 50px;
+   }
+   .lists div{
+width: 50%;
+margin-top: 50px;
+   }
+   .lists div h2{
+       padding-bottom:16px;
+   }
+   .footer-2 div{
+       display: flex;
+       flex-direction: column;
+       margin-left: 40px;
+   }
+   .footer-2 div h2{
+       margin-bottom: 15px;
+   }
+
+}
+
+ 
+@media screen and (max-width : 900px){
+    .text3 p{
+        margin: 20px 40px 0 40px;
+    }
+   
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   {{>Links}}
+</head>
+
+<body>
+    <!-- WHATSAPP PC HEADER -->
+
+   {{>Header1}}
+    <!-- WHATSAPP MOBILE HEADER  -->
+
+   {{>Header2}}
+
+    {{!-- SECTION 1  --}}
+
+    {{>Section1}}
+
+    {{!-- SECTION 2  --}}
+   {{>Section2}}
+
+    {{!-- FOOTER  --}}
+    {{>Footer}}
+
+    
+    <script>
+        const btn = document.getElementById("ham");
+        const header = document.getElementById("H2");
+        const close = document.getElementById("close");
+
+        close.addEventListener("click", () => {
+            header.classList.toggle("header2");
+            close.style.display = "none"
+            btn.classList.toggle("zindex")
+        })
+
+        btn.addEventListener("click", () => {
+            header.classList.toggle("header2")
+            btn.classList.toggle("zindex")
+            close.style.display = "flex"
+
+        })
+    </script>
+</body>
+
+</html>
